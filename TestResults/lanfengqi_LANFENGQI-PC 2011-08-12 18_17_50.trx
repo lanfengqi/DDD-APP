@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d4e932b8-88c3-4837-8d90-a50004cc0b3f" name="lanfengqi@LANFENGQI-PC 2011-08-12 18:17:50" runUser="lanfengqi-PC\lanfengqi" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="224a7e31-8997-4a64-ae64-2d6254c7d994">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="lanfengqi_LANFENGQI-PC 2011-08-12 18_17_50">
+      <DeploymentItem filename="E:\010.app\Infrastructure.CrossCutting.NetFramework\bin\Debug\Infrastructure.CrossCutting.NetFramework.dll" />
+      <DeploymentItem filename="E:\010.app\Infrastructure.CrossCutting\bin\Debug\Infrastructure.CrossCutting.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-08-12T18:17:50.3418445-07:00" queuing="2011-08-12T18:17:50.3688461-07:00" start="2011-08-12T18:17:50.3848470-07:00" finish="2011-08-12T18:17:51.3779038-07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="10" executed="10" passed="1" error="0" failed="3" timeout="0" aborted="0" inconclusive="6" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TraceStopTest" storage="e:\010.app\infrastructure.crosscutting.netframework.tests\bin\debug\infrastructure.crosscutting.netframework.tests.dll" id="927b5717-48ef-e899-ef0c-616681c3927b">
+      <Execution id="b2819755-cbb4-4744-933b-89e9606b62e0" />
+      <TestMethod codeBase="E:/010.app/Infrastructure.CrossCutting.NetFramework.Tests/bin/Debug/Infrastructure.CrossCutting.NetFramework.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Infrastructure.CrossCutting.NetFramework.Tests.TraceManagerTest, Infrastructure.CrossCutting.NetFramework.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TraceStopTest" />
+    </UnitTest>
+    <UnitTest name="TraceCriticalTest" storage="e:\010.app\infrastructure.crosscutting.netframework.tests\bin\debug\infrastructure.crosscutting.netframework.tests.dll" id="3897317a-4be0-b0e4-9186-bfbde7c62c29">
+      <Execution id="8d7287b3-e9f1-41bc-9d5a-f346ccb26aaf" />
+      <TestMethod codeBase="E:/010.app/Infrastructure.CrossCutting.NetFramework.Tests/bin/Debug/Infrastructure.CrossCutting.NetFramework.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Infrastructure.CrossCutting.NetFramework.Tests.TraceManagerTest, Infrastructure.CrossCutting.NetFramework.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TraceCriticalTest" />
+    </UnitTest>
+    <UnitTest name="TraceManagerConstructorTest" storage="e:\010.app\infrastructure.crosscutting.netframework.tests\bin\debug\infrastructure.crosscutting.netframework.tests.dll" id="1128877a-8f43-c94e-983c-f5016a482185">
+      <Execution id="e3813189-f34d-4009-9c85-974f84dfeb9c" />
+      <TestMethod codeBase="E:/010.app/Infrastructure.CrossCutting.NetFramework.Tests/bin/Debug/Infrastructure.CrossCutting.NetFramework.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Infrastructure.CrossCutting.NetFramework.Tests.TraceManagerTest, Infrastructure.CrossCutting.NetFramework.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TraceManagerConstructorTest" />
+    </UnitTest>
+    <UnitTest name="TraceStartTest" storage="e:\010.app\infrastructure.crosscutting.netframework.tests\bin\debug\infrastructure.crosscutting.netframework.tests.dll" id="d147e39d-6b77-5f8a-4fb6-8f9a020838e1">
+      <Execution id="3d5c85a5-be07-466f-b51f-50148e8c3ae3" />
+      <TestMethod codeBase="E:/010.app/Infrastructure.CrossCutting.NetFramework.Tests/bin/Debug/Infrastructure.CrossCutting.NetFramework.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Infrastructure.CrossCutting.NetFramework.Tests.TraceManagerTest, Infrastructure.CrossCutting.NetFramework.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TraceStartTest" />
+    </UnitTest>
+    <UnitTest name="TraceInternalTest" storage="e:\010.app\infrastructure.crosscutting.netframework.tests\bin\debug\infrastructure.crosscutting.netframework.tests.dll" id="aa6cfc72-1369-81c8-9c24-d41925ae8c68">
+      <DeploymentItems>
+        <DeploymentItem filename="Infrastructure.CrossCutting.NetFramework.dll" />
+      </DeploymentItems>
+      <Execution id="eb33557e-632b-4cb6-8ecc-7fffbacb3ed7" />
+      <TestMethod codeBase="E:/010.app/Infrastructure.CrossCutting.NetFramework.Tests/bin/Debug/Infrastructure.CrossCutting.NetFramework.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Infrastructure.CrossCutting.NetFramework.Tests.TraceManagerTest, Infrastructure.CrossCutting.NetFramework.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TraceInternalTest" />
+    </UnitTest>
+    <UnitTest name="TraceWarningTest" storage="e:\010.app\infrastructure.crosscutting.netframework.tests\bin\debug\infrastructure.crosscutting.netframework.tests.dll" id="8592cae3-095f-7efb-5c2a-5e3403c2e27b">
+      <Execution id="62726767-99b8-406a-8991-c6d268aaefa1" />
+      <TestMethod codeBase="E:/010.app/Infrastructure.CrossCutting.NetFramework.Tests/bin/Debug/Infrastructure.CrossCutting.NetFramework.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Infrastructure.CrossCutting.NetFramework.Tests.TraceManagerTest, Infrastructure.CrossCutting.NetFramework.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TraceWarningTest" />
+    </UnitTest>
+    <UnitTest name="TraceErrorTest" storage="e:\010.app\infrastructure.crosscutting.netframework.tests\bin\debug\infrastructure.crosscutting.netframework.tests.dll" id="8979fc32-abb9-1a2a-1f95-b091a1f14d74">
+      <Execution id="727fe65b-0513-419b-a08f-99fb98c68d6a" />
+      <TestMethod codeBase="E:/010.app/Infrastructure.CrossCutting.NetFramework.Tests/bin/Debug/Infrastructure.CrossCutting.NetFramework.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Infrastructure.CrossCutting.NetFramework.Tests.TraceManagerTest, Infrastructure.CrossCutting.NetFramework.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TraceErrorTest" />
+    </UnitTest>
+    <UnitTest name="TraceStartLogicalOperationTest" storage="e:\010.app\infrastructure.crosscutting.netframework.tests\bin\debug\infrastructure.crosscutting.netframework.tests.dll" id="51e1a4c7-c4b1-8262-78d3-f51a7b8ffd42">
+      <Execution id="2f267387-6aea-49a9-9979-d4c6a325a111" />
+      <TestMethod codeBase="E:/010.app/Infrastructure.CrossCutting.NetFramework.Tests/bin/Debug/Infrastructure.CrossCutting.NetFramework.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Infrastructure.CrossCutting.NetFramework.Tests.TraceManagerTest, Infrastructure.CrossCutting.NetFramework.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TraceStartLogicalOperationTest" />
+    </UnitTest>
+    <UnitTest name="TraceStopLogicalOperationTest" storage="e:\010.app\infrastructure.crosscutting.netframework.tests\bin\debug\infrastructure.crosscutting.netframework.tests.dll" id="bc9936cb-393f-3654-d75f-32ac6126e605">
+      <Execution id="d1ee1251-a676-4302-b5cc-77b8c4d11643" />
+      <TestMethod codeBase="E:/010.app/Infrastructure.CrossCutting.NetFramework.Tests/bin/Debug/Infrastructure.CrossCutting.NetFramework.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Infrastructure.CrossCutting.NetFramework.Tests.TraceManagerTest, Infrastructure.CrossCutting.NetFramework.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TraceStopLogicalOperationTest" />
+    </UnitTest>
+    <UnitTest name="TraceInfoTest" storage="e:\010.app\infrastructure.crosscutting.netframework.tests\bin\debug\infrastructure.crosscutting.netframework.tests.dll" id="e9112083-de5a-8561-baaa-e3e1d88282f6">
+      <Execution id="07f2bd47-6c39-41cb-9867-c21545b7ed35" />
+      <TestMethod codeBase="E:/010.app/Infrastructure.CrossCutting.NetFramework.Tests/bin/Debug/Infrastructure.CrossCutting.NetFramework.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Infrastructure.CrossCutting.NetFramework.Tests.TraceManagerTest, Infrastructure.CrossCutting.NetFramework.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TraceInfoTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1128877a-8f43-c94e-983c-f5016a482185" executionId="e3813189-f34d-4009-9c85-974f84dfeb9c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3897317a-4be0-b0e4-9186-bfbde7c62c29" executionId="8d7287b3-e9f1-41bc-9d5a-f346ccb26aaf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="51e1a4c7-c4b1-8262-78d3-f51a7b8ffd42" executionId="2f267387-6aea-49a9-9979-d4c6a325a111" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8592cae3-095f-7efb-5c2a-5e3403c2e27b" executionId="62726767-99b8-406a-8991-c6d268aaefa1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8979fc32-abb9-1a2a-1f95-b091a1f14d74" executionId="727fe65b-0513-419b-a08f-99fb98c68d6a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="927b5717-48ef-e899-ef0c-616681c3927b" executionId="b2819755-cbb4-4744-933b-89e9606b62e0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aa6cfc72-1369-81c8-9c24-d41925ae8c68" executionId="eb33557e-632b-4cb6-8ecc-7fffbacb3ed7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bc9936cb-393f-3654-d75f-32ac6126e605" executionId="d1ee1251-a676-4302-b5cc-77b8c4d11643" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d147e39d-6b77-5f8a-4fb6-8f9a020838e1" executionId="3d5c85a5-be07-466f-b51f-50148e8c3ae3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e9112083-de5a-8561-baaa-e3e1d88282f6" executionId="07f2bd47-6c39-41cb-9867-c21545b7ed35" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="e3813189-f34d-4009-9c85-974f84dfeb9c" testId="1128877a-8f43-c94e-983c-f5016a482185" testName="TraceManagerConstructorTest" computerName="LANFENGQI-PC" duration="00:00:00.0382414" startTime="2011-08-12T18:17:50.4108485-07:00" endTime="2011-08-12T18:17:50.8488735-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e3813189-f34d-4009-9c85-974f84dfeb9c">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. TODO: Implement code to verify target</Message>
+          <StackTrace>   at Infrastructure.CrossCutting.NetFramework.Tests.TraceManagerTest.TraceManagerConstructorTest() in E:\010.app\Infrastructure.CrossCutting.NetFramework.Tests\TraceManagerTest.cs:line 74
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8d7287b3-e9f1-41bc-9d5a-f346ccb26aaf" testId="3897317a-4be0-b0e4-9186-bfbde7c62c29" testName="TraceCriticalTest" computerName="LANFENGQI-PC" duration="00:00:00.0461363" startTime="2011-08-12T18:17:50.8628743-07:00" endTime="2011-08-12T18:17:50.9308782-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8d7287b3-e9f1-41bc-9d5a-f346ccb26aaf">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Infrastructure.CrossCutting.NetFramework.Tests.TraceManagerTest.TraceCriticalTest threw exception: 
+System.ArgumentNullException: 跟踪消息为null或空字符串
+Parameter name: message</Message>
+          <StackTrace>    at Infrastructure.CrossCutting.NetFramework.Logging.TraceManager.TraceCritical(String message) in E:\010.app\Infrastructure.CrossCutting.NetFramework\Logging\TraceManager.cs:line 155
+   at Infrastructure.CrossCutting.NetFramework.Tests.TraceManagerTest.TraceCriticalTest() in E:\010.app\Infrastructure.CrossCutting.NetFramework.Tests\TraceManagerTest.cs:line 85
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2f267387-6aea-49a9-9979-d4c6a325a111" testId="51e1a4c7-c4b1-8262-78d3-f51a7b8ffd42" testName="TraceStartLogicalOperationTest" computerName="LANFENGQI-PC" duration="00:00:00.0025733" startTime="2011-08-12T18:17:50.9568797-07:00" endTime="2011-08-12T18:17:50.9848813-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2f267387-6aea-49a9-9979-d4c6a325a111">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   at Infrastructure.CrossCutting.NetFramework.Tests.TraceManagerTest.TraceStartLogicalOperationTest() in E:\010.app\Infrastructure.CrossCutting.NetFramework.Tests\TraceManagerTest.cs:line 147
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="62726767-99b8-406a-8991-c6d268aaefa1" testId="8592cae3-095f-7efb-5c2a-5e3403c2e27b" testName="TraceWarningTest" computerName="LANFENGQI-PC" duration="00:00:00.0332124" startTime="2011-08-12T18:17:51.0038824-07:00" endTime="2011-08-12T18:17:51.0468849-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="62726767-99b8-406a-8991-c6d268aaefa1">
+    </UnitTestResult>
+    <UnitTestResult executionId="727fe65b-0513-419b-a08f-99fb98c68d6a" testId="8979fc32-abb9-1a2a-1f95-b091a1f14d74" testName="TraceErrorTest" computerName="LANFENGQI-PC" duration="00:00:00.0042467" startTime="2011-08-12T18:17:51.0588855-07:00" endTime="2011-08-12T18:17:51.1018880-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="727fe65b-0513-419b-a08f-99fb98c68d6a">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Infrastructure.CrossCutting.NetFramework.Tests.TraceManagerTest.TraceErrorTest threw exception: 
+System.ArgumentNullException: 跟踪消息为null或空字符串
+Parameter name: message</Message>
+          <StackTrace>    at Infrastructure.CrossCutting.NetFramework.Logging.TraceManager.TraceError(String message) in E:\010.app\Infrastructure.CrossCutting.NetFramework\Logging\TraceManager.cs:line 143
+   at Infrastructure.CrossCutting.NetFramework.Tests.TraceManagerTest.TraceErrorTest() in E:\010.app\Infrastructure.CrossCutting.NetFramework.Tests\TraceManagerTest.cs:line 97
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b2819755-cbb4-4744-933b-89e9606b62e0" testId="927b5717-48ef-e899-ef0c-616681c3927b" testName="TraceStopTest" computerName="LANFENGQI-PC" duration="00:00:00.0027400" startTime="2011-08-12T18:17:51.1278895-07:00" endTime="2011-08-12T18:17:51.1548910-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b2819755-cbb4-4744-933b-89e9606b62e0">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   at Infrastructure.CrossCutting.NetFramework.Tests.TraceManagerTest.TraceStopTest() in E:\010.app\Infrastructure.CrossCutting.NetFramework.Tests\TraceManagerTest.cs:line 158
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="eb33557e-632b-4cb6-8ecc-7fffbacb3ed7" testId="aa6cfc72-1369-81c8-9c24-d41925ae8c68" testName="TraceInternalTest" computerName="LANFENGQI-PC" duration="00:00:00.0122566" startTime="2011-08-12T18:17:51.1648916-07:00" endTime="2011-08-12T18:17:51.2038938-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eb33557e-632b-4cb6-8ecc-7fffbacb3ed7">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   at Infrastructure.CrossCutting.NetFramework.Tests.TraceManagerTest.TraceInternalTest() in E:\010.app\Infrastructure.CrossCutting.NetFramework.Tests\TraceManagerTest.cs:line 124
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d1ee1251-a676-4302-b5cc-77b8c4d11643" testId="bc9936cb-393f-3654-d75f-32ac6126e605" testName="TraceStopLogicalOperationTest" computerName="LANFENGQI-PC" duration="00:00:00.0061181" startTime="2011-08-12T18:17:51.2138944-07:00" endTime="2011-08-12T18:17:51.2318954-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d1ee1251-a676-4302-b5cc-77b8c4d11643">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   at Infrastructure.CrossCutting.NetFramework.Tests.TraceManagerTest.TraceStopLogicalOperationTest() in E:\010.app\Infrastructure.CrossCutting.NetFramework.Tests\TraceManagerTest.cs:line 169
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3d5c85a5-be07-466f-b51f-50148e8c3ae3" testId="d147e39d-6b77-5f8a-4fb6-8f9a020838e1" testName="TraceStartTest" computerName="LANFENGQI-PC" duration="00:00:00.0070351" startTime="2011-08-12T18:17:51.2578969-07:00" endTime="2011-08-12T18:17:51.2898988-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3d5c85a5-be07-466f-b51f-50148e8c3ae3">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   at Infrastructure.CrossCutting.NetFramework.Tests.TraceManagerTest.TraceStartTest() in E:\010.app\Infrastructure.CrossCutting.NetFramework.Tests\TraceManagerTest.cs:line 135
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="07f2bd47-6c39-41cb-9867-c21545b7ed35" testId="e9112083-de5a-8561-baaa-e3e1d88282f6" testName="TraceInfoTest" computerName="LANFENGQI-PC" duration="00:00:00.0138634" startTime="2011-08-12T18:17:51.2918989-07:00" endTime="2011-08-12T18:17:51.3329012-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="07f2bd47-6c39-41cb-9867-c21545b7ed35">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Infrastructure.CrossCutting.NetFramework.Tests.TraceManagerTest.TraceInfoTest threw exception: 
+System.ArgumentNullException: 跟踪消息为null或空字符串
+Parameter name: message</Message>
+          <StackTrace>    at Infrastructure.CrossCutting.NetFramework.Logging.TraceManager.TraceInfo(String message) in E:\010.app\Infrastructure.CrossCutting.NetFramework\Logging\TraceManager.cs:line 119
+   at Infrastructure.CrossCutting.NetFramework.Tests.TraceManagerTest.TraceInfoTest() in E:\010.app\Infrastructure.CrossCutting.NetFramework.Tests\TraceManagerTest.cs:line 109
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

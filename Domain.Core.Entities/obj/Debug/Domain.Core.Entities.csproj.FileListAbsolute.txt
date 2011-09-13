@@ -1,0 +1,10 @@
+F:\010.Program\230.App\Domain.Core.Entities\obj\Debug\ResolveAssemblyReference.cache
+F:\010.Program\230.App\Domain.Core.Entities\bin\Debug\Domain.Core.Entities.dll
+F:\010.Program\230.App\Domain.Core.Entities\bin\Debug\Domain.Core.Entities.pdb
+F:\010.Program\230.App\Domain.Core.Entities\obj\Debug\Domain.Core.Entities.dll
+F:\010.Program\230.App\Domain.Core.Entities\obj\Debug\Domain.Core.Entities.pdb
+E:\010.app\Domain.Core.Entities\bin\Debug\Domain.Core.Entities.dll
+E:\010.app\Domain.Core.Entities\bin\Debug\Domain.Core.Entities.pdb
+E:\010.app\Domain.Core.Entities\obj\Debug\ResolveAssemblyReference.cache
+E:\010.app\Domain.Core.Entities\obj\Debug\Domain.Core.Entities.dll
+E:\010.app\Domain.Core.Entities\obj\Debug\Domain.Core.Entities.pdb

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="50f0d666-6bcf-458f-b2f1-a60371794bb6" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <layers>
+    <layer Id="e6758fc4-77cc-48fe-a2fc-3e8ead0d6adb" name="&#xD;&#xA; Presentation">
+      <childLayers>
+        <layer Id="69ebe41a-aca2-43f2-b5a7-acb8367308c9" name="ASP.NET&#xD;&#xA;">
+          <childLayers>
+            <layer Id="dc8dc023-14db-4b15-8980-d05f26a294e0" name="MVC" />
+          </childLayers>
+          <references>
+            <reference Id="65587d1d-3f21-445b-9b08-97ee1581e6c3" name="Microsoft.Samples.NLayerApp.Presentation.Web.MVC.Client">
+              <ArtifactNode Label="Microsoft.Samples.NLayerApp.Presentation.Web.MVC.Client" Category="CodeSchema_Namespace" Id="(Namespace=Microsoft.Samples.NLayerApp.Presentation.Web.MVC.Client)" />
+              <ExpandedNode Id="(Assembly=NLayerApp.Presentation.Web.MVC.Client)" Label="NLayerApp.Presentation.Web.MVC.Client.dll" Category="CodeSchema_Assembly">
+                <LinkCategory Ref="Dsl.NamespaceUsedInAssembly" />
+              </ExpandedNode>
+              <ExpandedNode Id="(Namespace=Microsoft.Samples.NLayerApp.Presentation.Web.MVC.Client)" Label="Microsoft.Samples.NLayerApp.Presentation.Web.MVC.Client" Category="CodeSchema_Namespace">
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+        <layer Id="4c9d8edd-9f7a-4883-be3c-c9911c699488" name="WINDOWFROM">
+          <childLayers>
+            <layer Id="7448e9ea-749d-4aa5-9f5e-41ee447663d9" name="MVP" />
+          </childLayers>
+          <references>
+            <reference Id="03b72044-cdbb-4d35-88e6-98dd7ba0034e" name="Microsoft.Samples.NLayerApp.Presentation.Web.MVC.Client">
+              <ArtifactNode Label="Microsoft.Samples.NLayerApp.Presentation.Web.MVC.Client" Category="CodeSchema_Namespace" Id="(Namespace=Microsoft.Samples.NLayerApp.Presentation.Web.MVC.Client)" />
+              <ExpandedNode Id="(Assembly=NLayerApp.Presentation.Web.MVC.Client)" Label="NLayerApp.Presentation.Web.MVC.Client.dll" Category="CodeSchema_Assembly">
+                <LinkCategory Ref="Dsl.NamespaceUsedInAssembly" />
+              </ExpandedNode>
+              <ExpandedNode Id="(Namespace=Microsoft.Samples.NLayerApp.Presentation.Web.MVC.Client)" Label="Microsoft.Samples.NLayerApp.Presentation.Web.MVC.Client" Category="CodeSchema_Namespace">
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+      </childLayers>
+    </layer>
+    <layer Id="1a968c97-fa3d-436b-a07b-16d24832f69d" name="Infrastructure">
+      <childLayers>
+        <layer Id="083bc8e7-6f74-439d-a10d-e100e3871765" name="CrossCutting&#xD;&#xA;">
+          <childLayers>
+            <layer Id="db1e50de-b27b-4599-9449-5f08f05a8626" name="IOC&#xD;&#xA;" />
+            <layer Id="dbdb90a4-3087-4d20-855e-47564c1db358" name="NetFramework">
+              <childLayers>
+                <layer Id="3ff489dc-a4bc-4c4a-8f50-beb4d1b81f40" name="Log&#xD;&#xA;" />
+              </childLayers>
+            </layer>
+          </childLayers>
+        </layer>
+      </childLayers>
+    </layer>
+  </layers>
+</layerModel>

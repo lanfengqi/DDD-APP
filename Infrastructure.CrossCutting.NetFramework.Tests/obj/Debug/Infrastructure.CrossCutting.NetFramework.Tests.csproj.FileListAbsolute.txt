@@ -1,0 +1,11 @@
+E:\010.app\Infrastructure.CrossCutting.NetFramework.Tests\bin\Debug\Infrastructure.CrossCutting.NetFramework.Tests.dll
+E:\010.app\Infrastructure.CrossCutting.NetFramework.Tests\bin\Debug\Infrastructure.CrossCutting.NetFramework.Tests.pdb
+E:\010.app\Infrastructure.CrossCutting.NetFramework.Tests\bin\Debug\Infrastructure.CrossCutting.dll
+E:\010.app\Infrastructure.CrossCutting.NetFramework.Tests\bin\Debug\Infrastructure.CrossCutting.NetFramework.dll
+E:\010.app\Infrastructure.CrossCutting.NetFramework.Tests\bin\Debug\Infrastructure.CrossCutting.NetFramework.pdb
+E:\010.app\Infrastructure.CrossCutting.NetFramework.Tests\bin\Debug\Infrastructure.CrossCutting.pdb
+E:\010.app\Infrastructure.CrossCutting.NetFramework.Tests\bin\Debug\Infrastructure.CrossCutting.NetFramework_Accessor.dll
+E:\010.app\Infrastructure.CrossCutting.NetFramework.Tests\bin\Debug\Infrastructure.CrossCutting.NetFramework_Accessor.pdb
+E:\010.app\Infrastructure.CrossCutting.NetFramework.Tests\obj\Debug\ResolveAssemblyReference.cache
+E:\010.app\Infrastructure.CrossCutting.NetFramework.Tests\obj\Debug\Infrastructure.CrossCutting.NetFramework.Tests.dll
+E:\010.app\Infrastructure.CrossCutting.NetFramework.Tests\obj\Debug\Infrastructure.CrossCutting.NetFramework.Tests.pdb

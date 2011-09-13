@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="fcac9994-d21f-43d3-9fd0-9ecf78fcb752" name="lanfengqi@LANFENGQI-PC 2011-08-12 18:12:50" runUser="lanfengqi-PC\lanfengqi" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="224a7e31-8997-4a64-ae64-2d6254c7d994">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="lanfengqi_LANFENGQI-PC 2011-08-12 18_12_50">
+      <DeploymentItem filename="E:\010.app\Infrastructure.CrossCutting.NetFramework\bin\Debug\Infrastructure.CrossCutting.NetFramework.dll" />
+      <DeploymentItem filename="E:\010.app\Infrastructure.CrossCutting\bin\Debug\Infrastructure.CrossCutting.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-08-12T18:12:50.8757160-07:00" queuing="2011-08-12T18:12:50.8967172-07:00" start="2011-08-12T18:12:50.9347194-07:00" finish="2011-08-12T18:12:51.5287534-07:00" />
+  <ResultSummary outcome="Inconclusive">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="1" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TraceStopTest" storage="e:\010.app\infrastructure.crosscutting.netframework.tests\bin\debug\infrastructure.crosscutting.netframework.tests.dll" id="927b5717-48ef-e899-ef0c-616681c3927b">
+      <Execution id="205a078c-d676-4f2b-ac78-ee62ba631422" />
+      <TestMethod codeBase="E:/010.app/Infrastructure.CrossCutting.NetFramework.Tests/bin/Debug/Infrastructure.CrossCutting.NetFramework.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Infrastructure.CrossCutting.NetFramework.Tests.TraceManagerTest, Infrastructure.CrossCutting.NetFramework.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TraceStopTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="927b5717-48ef-e899-ef0c-616681c3927b" executionId="205a078c-d676-4f2b-ac78-ee62ba631422" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="205a078c-d676-4f2b-ac78-ee62ba631422" testId="927b5717-48ef-e899-ef0c-616681c3927b" testName="TraceStopTest" computerName="LANFENGQI-PC" duration="00:00:00.0576399" startTime="2011-08-12T18:12:50.9617210-07:00" endTime="2011-08-12T18:12:51.4417484-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="205a078c-d676-4f2b-ac78-ee62ba631422">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   at Infrastructure.CrossCutting.NetFramework.Tests.TraceManagerTest.TraceStopTest() in E:\010.app\Infrastructure.CrossCutting.NetFramework.Tests\TraceManagerTest.cs:line 158
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

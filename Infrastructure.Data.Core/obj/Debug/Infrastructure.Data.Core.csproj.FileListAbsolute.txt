@@ -1,0 +1,4 @@
+E:\010.app\Infrastructure.Data.Core\obj\Debug\ResolveAssemblyReference.cache
+E:\010.app\Infrastructure.Data.Core\obj\Debug\Infrastructure.Data.Core.Resources.Messages.resources
+E:\010.app\Infrastructure.Data.Core\obj\Debug\GenerateResource.read.1.tlog
+E:\010.app\Infrastructure.Data.Core\obj\Debug\GenerateResource.write.1.tlog

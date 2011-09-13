@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(ErrorName=ReferenceValidationWarning LayerNode=4c9d8edd-9f7a-4883-be3c-c9911c699488 Artifact=(Namespace=Microsoft.Samples.NLayerApp.Presentation.Web.MVC.Client))" Category="Node.Error" Description="AV3001 : Missing Link : Layer '&#xD;&#xA; Presentation.WINDOWFROM' links to 'Microsoft.Samples.NLayerApp.Presentation.Web.MVC.Client' which cannot be found. Are you missing an assembly reference?" ErrorLevel="Warning" Label="Validation Warning: Unresolved Reference" />
+    <Node Id="(ErrorName=ReferenceValidationWarning LayerNode=69ebe41a-aca2-43f2-b5a7-acb8367308c9 Artifact=(Namespace=Microsoft.Samples.NLayerApp.Presentation.Web.MVC.Client))" Category="Node.Error" Description="AV3001 : Missing Link : Layer '&#xD;&#xA; Presentation.ASP.NET&#xD;&#xA;' links to 'Microsoft.Samples.NLayerApp.Presentation.Web.MVC.Client' which cannot be found. Are you missing an assembly reference?" ErrorLevel="Warning" Label="Validation Warning: Unresolved Reference" />
+    <Node Id="4c9d8edd-9f7a-4883-be3c-c9911c699488" Category="Dsl.Layer" Dsl.ForbiddenNamespace="" Dsl.ForbiddenNamespaceDependencies="" Dsl.QualifiedName="&#xD;&#xA; Presentation.WINDOWFROM" Dsl.RequiredNamespace="" Label="WINDOWFROM" Visibility="Hidden" />
+    <Node Id="50f0d666-6bcf-458f-b2f1-a60371794bb6" Category="Dsl.LayerModel" Dsl.DiagramPath="F:\010.Program\230.App\App\App Modeling Project\N-Layer Design\App V1 Base.layerdiagram" Dsl.QualifiedName="" Label="App V1 Base" Visibility="Hidden" />
+    <Node Id="69ebe41a-aca2-43f2-b5a7-acb8367308c9" Category="Dsl.Layer" Dsl.ForbiddenNamespace="" Dsl.ForbiddenNamespaceDependencies="" Dsl.QualifiedName="&#xD;&#xA; Presentation.ASP.NET&#xD;&#xA;" Dsl.RequiredNamespace="" Label="ASP.NET&#xD;&#xA;" Visibility="Hidden" />
+  </Nodes>
+  <Links>
+    <Link Source="(ErrorName=ReferenceValidationWarning LayerNode=4c9d8edd-9f7a-4883-be3c-c9911c699488 Artifact=(Namespace=Microsoft.Samples.NLayerApp.Presentation.Web.MVC.Client))" Target="4c9d8edd-9f7a-4883-be3c-c9911c699488" Category="LayerDesigner.ErrorSource" IsHiddenInNavigation="True" />
+    <Link Source="(ErrorName=ReferenceValidationWarning LayerNode=4c9d8edd-9f7a-4883-be3c-c9911c699488 Artifact=(Namespace=Microsoft.Samples.NLayerApp.Presentation.Web.MVC.Client))" Target="50f0d666-6bcf-458f-b2f1-a60371794bb6" Category="LayerDesigner.ErrorLayerModel" IsHiddenInNavigation="True" />
+    <Link Source="(ErrorName=ReferenceValidationWarning LayerNode=69ebe41a-aca2-43f2-b5a7-acb8367308c9 Artifact=(Namespace=Microsoft.Samples.NLayerApp.Presentation.Web.MVC.Client))" Target="50f0d666-6bcf-458f-b2f1-a60371794bb6" Category="LayerDesigner.ErrorLayerModel" IsHiddenInNavigation="True" />
+    <Link Source="(ErrorName=ReferenceValidationWarning LayerNode=69ebe41a-aca2-43f2-b5a7-acb8367308c9 Artifact=(Namespace=Microsoft.Samples.NLayerApp.Presentation.Web.MVC.Client))" Target="69ebe41a-aca2-43f2-b5a7-acb8367308c9" Category="LayerDesigner.ErrorSource" IsHiddenInNavigation="True" />
+  </Links>
+  <Categories>
+    <Category Id="Dsl.Layer" Label="Layer" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Layer" />
+    <Category Id="Dsl.LayerModel" Label="Layer Model" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Layer Model" />
+    <Category Id="LayerDesigner.ErrorLayerModel" Label="Error" BasedOn="Link.Error" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Error" OutgoingActionLabel="Error" />
+    <Category Id="LayerDesigner.ErrorSource" Label="Error" BasedOn="Link.Error" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Error" OutgoingActionLabel="Error" />
+    <Category Id="Link.Error" Label="Error" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Error" OutgoingActionLabel="Error" />
+    <Category Id="Node.Error" Label="Error" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" IsProviderRoot="False" NavigationActionLabel="Error" />
+  </Categories>
+  <Properties>
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="Description" Label="Description" Description="Description" DataType="System.String" />
+    <Property Id="Dsl.DiagramPath" DataType="System.String" />
+    <Property Id="Dsl.ForbiddenNamespace" DataType="System.String" />
+    <Property Id="Dsl.ForbiddenNamespaceDependencies" DataType="System.String" />
+    <Property Id="Dsl.QualifiedName" DataType="System.String" />
+    <Property Id="Dsl.RequiredNamespace" DataType="System.String" />
+    <Property Id="ErrorLevel" Label="Error Level" Description="Used to associate an error level with a node or link in the graph" Group="Analysis" DataType="Microsoft.VisualStudio.Progression.GraphModel.ErrorLevel" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsHiddenInNavigation" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="Visibility" Label="Visibility" Description="Defines whether a node in the graph is visible or not" DataType="System.Windows.Visibility" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Artifact" Label="Artifact" ValueType="Microsoft.VisualStudio.Progression.GraphModel.QualifiedIdentifier" />
+    <Name Id="ErrorName" Label="ErrorName" ValueType="System.String" />
+    <Name Id="LayerNode" Label="LayerNode" ValueType="Microsoft.VisualStudio.Progression.GraphModel.QualifiedIdentifier" />
+    <Name Id="Namespace" Label="Namespace" ValueType="System.String" />
+  </QualifiedNames>
+</DirectedGraph>
